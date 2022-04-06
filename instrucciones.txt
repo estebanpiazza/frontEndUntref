@@ -7,4 +7,5 @@
 3) Le pongo nombre
 4) Boton crear repositorio
 5) Descargar repositorio
-6) hola
+6) Modificarlo
+7) Volver a subir
