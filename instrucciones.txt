@@ -6,3 +6,4 @@
 2) Toco boton new
 3) Le pongo nombre
 4) Boton crear repositorio
+5) Descargar repositorio
