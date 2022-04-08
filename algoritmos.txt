@@ -1,0 +1,11 @@
+Algoritmo: serie de pasos para llevar a cabo una tarea.
+
+Lavarse los dientes:
+1) Agarrar un cepillo de dientes
+2) Ponerle pasta de dientes al cepillo de dientes
+3) Mojar el cepillo
+4) Introducir en la boca y empezar a moverlo en forma circular
+5) Luego de varios movimientos, me saco el cepillo de la boca 
+6) Comienzo a hacer buches de agua
+7) Dejar el cepillo donde estaba.
+
