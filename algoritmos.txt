@@ -9,3 +9,7 @@ Lavarse los dientes:
 6) Comienzo a hacer buches de agua
 7) Dejar el cepillo donde estaba.
 
+Decimal:
+0 - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9
+Binario:
+0 - 1 
