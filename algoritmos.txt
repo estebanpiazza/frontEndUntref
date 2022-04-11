@@ -13,3 +13,14 @@ Decimal:
 0 - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9
 Binario:
 0 - 1 
+
+HTML = HyperText Markup Language
+Lenguaje de Marcado de HyperTexto
+
+Desarrollo: espacio donde programo sin que lo vea el usuario final
+Producción: espacio donde el usuario final accede al contenido
+Rollback: ir al paso anterior - volver las cosas para atras
+
+
+SEM: posicionamiento pago
+SEO: posicionamiento organico
