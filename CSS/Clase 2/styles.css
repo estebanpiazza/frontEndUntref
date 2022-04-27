@@ -1,0 +1,35 @@
+#conCss{
+    border: 10px solid black;
+    margin: 100px;
+    padding: 20px;
+}
+#clock{
+    border: 1px solid red;
+    
+    /* clockwise : arriba, derecha,abajo,izquierda*/
+    margin-top:40px;
+}
+#altaCaja{
+    width: 20%;
+    height: 20%;
+}
+div{
+    border: solid 1px black;
+    padding: 5px;
+    display:inline-block;
+    font-size:32px;
+    font-family: Arial;
+    width: 100px;
+    height: 110px;
+    
+}
+
+h1{
+    margin:auto;
+    display:inline;
+    text-align: center;
+}
+#masPequenia{
+    width: 20%;
+    height: 100px;
+}

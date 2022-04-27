@@ -1,0 +1,32 @@
+.hola{
+    display:none;
+}
+header{
+    background-color: darkblue;
+    height: 100px;
+
+}
+nav{
+    list-style:none;
+    margin-bottom: 20px;
+    padding:45px;
+    
+}
+
+li{
+    display: inline;
+    margin: 10px 40px;
+    color:white;
+    
+}
+
+
+footer{
+    background-color:white;
+    text-align: left;
+}
+div{display:inline}
+#col-izq{width: 80%;display:inline-block;
+background-color: red;height: 400px;}
+#col-der{width: 19%;display:inline-block;background-color: green;
+height: 400px;}
