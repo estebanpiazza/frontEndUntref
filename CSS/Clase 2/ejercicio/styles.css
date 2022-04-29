@@ -1,3 +1,5 @@
+
+
 .hola{
     display:none;
 }
@@ -8,7 +10,7 @@ header{
 }
 nav{
     list-style:none;
-    margin-bottom: 20px;
+    
     padding:45px;
     
 }
@@ -20,13 +22,13 @@ li{
     
 }
 
-
 footer{
     background-color:white;
     text-align: left;
 }
 div{display:inline}
-#col-izq{width: 80%;display:inline-block;
-background-color: red;height: 400px;}
-#col-der{width: 19%;display:inline-block;background-color: green;
-height: 400px;}
+#col-izq{color:white;width: 60%;
+background-color: red;height: 400px;float:left}
+
+#col-der{color:white;width: 40%;background-color: green;
+height: 400px;float:left}
