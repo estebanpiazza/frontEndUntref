@@ -1,0 +1,33 @@
+/* row es fila
+column es columna */
+/* header{
+    background-color: grey;
+    display: -webkit-flex;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*flex-flow: row-reverse wrap;} */
+main{
+    background-color: bisque;
+}
+footer{
+    background-color: black;
+    color:white;
+}
+/*****************************************/
+nav{
+    background-color: grey;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+li{ /* a */ 
+    margin:10px
+}

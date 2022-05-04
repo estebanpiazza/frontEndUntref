@@ -2,13 +2,14 @@ header{
     background-color: black;
     color:white;
     position: sticky;
-    top:0px;}
+    top:0px;
+}
 nav{
     list-style: none;}
 li{
     display: inline-block;
     width:25%;
-    position: relativa;
+    position: relative;
     font-size: 14px;}
 nav ul{
     position:absolute;
