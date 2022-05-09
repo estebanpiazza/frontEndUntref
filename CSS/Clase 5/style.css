@@ -4,6 +4,8 @@
 3º: radio de la sombra
 4º: spread (extension)
 5º: color */
+
+
 h1 {
     text-shadow: 20px 20px #FF0000, 10px 10px  #0000FF;
 }
@@ -19,8 +21,14 @@ span{
 input{
     box-shadow: 10px 10px 10px green; 
 }
-img{
+#img-1{
     border-radius: 50%;
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
 }
-
+#hola{ 
+    position: relative; 
+   -webkit-box-shadow:  0 0 10px 10px #000;    
+     -moz-box-shadow:  0 0 10px 10px #000;
+     box-shadow:  0 0 10px 10px #000;
+ 
+ }
