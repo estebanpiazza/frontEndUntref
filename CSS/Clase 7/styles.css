@@ -1,0 +1,5 @@
+body{background-color: grey;}
+*{
+    border:solid 1px red
+}
+#imagen-chica{width: 50%;}

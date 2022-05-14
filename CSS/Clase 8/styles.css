@@ -1,0 +1,39 @@
+.btn-primary{
+    background-color: #8064A2 ;
+}
+body{
+    background-color: red;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #imagen{display:none}
+  }
+
+  @media only screen 
+   and (min-width : 320px) {
+    .btn-primary{
+        background-color: green ;
+    }
+}
+@media only screen 
+   and (min-width : 768px) {
+    .btn-primary{
+        background-color: black ;
+    }
+}
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
