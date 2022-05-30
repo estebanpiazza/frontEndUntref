@@ -1,0 +1,37 @@
+.titulo {
+  color: red; }
+
+.texto-generico {
+  color: red;
+  width: 300px; }
+
+#subtitulo {
+  color: blue;
+  width: 100px;
+  border: red 1px solid; }
+
+ul {
+  list-style: none; }
+  ul li {
+    padding: 15px;
+    color: red; }
+
+#normal {
+  color: red; }
+
+#oscuro {
+  color: #cc0000; }
+
+#clarito {
+  color: #ff3333; }
+
+#complementario {
+  color: cyan; }
+
+#invertido {
+  color: cyan; }
+
+.noticias__titular--uppercase {
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=estilos.css.map */

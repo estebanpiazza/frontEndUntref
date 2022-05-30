@@ -1,0 +1,11 @@
+
+#blur:hover{filter: blur(5px);}
+#byn:hover{filter:grayscale(100%);}
+#sepia:hover{filter:sepia(50%)}
+#saturado:hover{filter:saturate(200%)}
+#invisible:hover{filter:opacity(50%)}
+#contenedor:hover #imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+#contenedor {overflow:hidden;}
+/* invert */
+#girar:hover {transform: rotate(360deg);
+    transition:all .5s ease-in-out;}

@@ -1,0 +1,19 @@
+body {
+    background: #111;
+    perspective: 200px;
+  }
+   
+  p {
+    font-size: 30px;
+    color: #fcd000;
+    font-weight: bold;
+    width: 600px;
+    margin: 0 auto;
+    transform: rotateX(30deg);
+    animation-name:entrada 20s;
+  }
+@keyframes entrada{
+    0% { transform: rotateX(30deg) translateY(400px); }
+ 100% { transform: rotateX(30deg) translateY(-300px); }
+
+}

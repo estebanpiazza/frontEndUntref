@@ -1,0 +1,77 @@
+/* div{
+    background-color: blue;
+}
+
+div:hover {
+    background-color: red;
+} */
+
+/* elemento :pseudoclase { propiedad:valor;}
+*/
+
+/*
+:hover - el mouse por encima
+:empty  - cuando esta vacio
+:visited - cuando ya le hice clic
+:focus - estoy en el elemnto
+*/
+#conCambios{
+    font-size: 20px;
+}
+#conCambios:link {
+    color:red;
+    background-color: green;
+}
+#conCambios:hover{
+    color:green;
+    background-color: red;
+}
+#conCambios:active{
+    color:yellow;
+    background-color: black;
+}
+#conCambios:visited{
+    color:black;
+    background-color: yellow;
+}
+article p:first-child{
+    font-style: italic;
+}
+article p:last-child{
+    background-color: red;
+}
+.focuseado:focus{
+    background-color: black;
+    color:white;
+}
+
+input:optional {
+    border: 1px dashed black;
+  }
+a::after{
+    border: 1px solid red;
+    content: "→";
+}
+a::before{
+    content:"esto sera un: "
+}
+p::first-letter{
+    font-size: 130%;
+}
+p::first-line{
+    font-style: italic;
+}
+
+#cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name:cambiarColor;
+    animation-duration: 4s;
+}
+
+@keyframes cambiarColor{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+

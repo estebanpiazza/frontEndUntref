@@ -1,0 +1,52 @@
+$color: green;
+$color-principal: red;
+$ancho: 100px;
+$invisible : none;
+$debug : red 1px solid;
+$color-oscuro : darken($color-principal,10%);
+$color-clarito: lighten($color-principal,10%);
+$btn-bkg: purple;
+
+.titulo {
+  color: $color-principal;
+}
+.texto-generico {
+  color: $color-principal;
+  width: $ancho * 3;
+}
+#subtitulo {
+  color: blue;
+  width: $ancho;  
+  border: $debug;
+
+}
+ul {
+    list-style: none;
+        li{
+            padding: 15px;
+            color:$color-principal;
+        }
+}
+#normal{
+    color:$color-principal;
+}
+#oscuro{
+    color:$color-oscuro;
+}
+
+#clarito {
+    color:$color-clarito;
+}
+#complementario{
+    color:complement($color-principal);
+}
+
+#invertido{
+    color:invert($color-principal);
+}
+
+
+
+.noticias__titular--uppercase{
+    text-transform: uppercase;
+}
