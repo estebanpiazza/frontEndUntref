@@ -87,5 +87,4 @@ let edadFormulario = document.getElementById("edad").value
 8) Consologear el array resultante de el ClassNanem
 9) Escribir dentro de un tag usando plantillas literales
 10) Crear un elemento nuevo y agregarlo
-11) Borrar un elemento 
-*/
+11) Borrar un elemento */
