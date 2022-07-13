@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <!-- post es para enviar información al servidor-->
+        <form action="" method="post" id="formulario">
+            <!-- El atributo "action" define la ubicación (URL) donde se envían los datos que el formulario ha recopilado cuando se validan.-->
+            <label for="user_name">Tu nombre:</label>
+            <input type="text" id="nombre_usuario" name="user_name">
+            <label for="user_name">Tu email:</label>
+            <input type="text" id="mail_usuario" name="user_mail">
+            <label for="user_message">Tu mensaje:</label>
+            <textarea id="msg"  name="user_message" value=""></textarea>
+            <!-- <button type="submit">Enviar consulta</button> -->
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
