@@ -1,0 +1,53 @@
+/* responsive */
+/* pantallas chicas*/
+.card{border: 0px;}
+@media screen and (max-width:767px) {
+    /* de 0 a 767 px */
+    body{
+    background-color: red;}
+    .menu{display:none}   
+    .menu-hamburguesa{display:inline;
+    width: 4vw;} 
+}
+/* pantallas medianas */
+@media screen and (min-width:768px){
+    /* de 0 a 767 px */
+    body{
+    background-color: yellow;}
+    .menu{display:inline}
+    .menu li{display: inline;}
+    .menu-hamburguesa{display:none}
+}
+
+/*pantalla grande*/
+@media screen and (min-width:1024px){
+    body{
+    background-color: green;}
+    .menu{display:inline}
+    .menu li{display: inline;}
+    .menu-hamburguesa{display:none}
+}
+
+/* sticky */
+/* 4 tipos de posicionamientos */
+body{
+    overflow-y: scroll;
+}
+header{
+    background-color: bisque;
+    position:sticky;
+    top:0px;
+}
+
+.icono-whatsapp{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}
+
+
+/* flex y grid */
+
+
+
+
