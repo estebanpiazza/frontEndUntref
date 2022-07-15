@@ -47,7 +47,7 @@ console.log(1>2 || 2<3)
 // 3) Funciones
 // una función es una porcion de codigo reutilizable
 function saludar(){
-    console.log("Hola")
+    console.log("Hola mundo")
 }
 
 // 4) Estructura if
