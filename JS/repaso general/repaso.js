@@ -50,6 +50,7 @@ function saludar(){
     console.log("Hola mundo")
 }
 
+
 // 4) Estructura if
 
 // 5) Estructura while - do while
