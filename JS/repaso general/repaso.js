@@ -50,9 +50,64 @@ function saludar(){
     console.log("Hola mundo")
 }
 
+//function nombre(parametro/s) {
+    //operaciones
+    // return
+//}
+function sumar(num1,num2){
+    return num1+num2
+    // let resultado = num1+num1
+    // return resultado
+}
+sumar(1,2)
+console.log( sumar(1,2) )
+let resultadoSuma = sumar(1,2)
+console.log(resultadoSuma)
 
 // 4) Estructura if
+let edad2 = 17;
+function patova(numero){
+    if(numero >= 18){
+        return "Puede pasar"
+    }else{
+        return "No puede pasar"
+    }
+}
+
+console.log(patova(edad2)) // No puede pasar
+console.log(patova(edad)) // Puede pasar
+console.log(patova(sumar(17,1))) //Puede pasar
+console.log(patova(sumar(16,1))) // No puede pasar
+
 
 // 5) Estructura while - do while
+function acumular (){
+    let x = 0
+    let acumulador = 0;
+    while (x !== -1){
+       let valor = parseInt(prompt("ingresar valor"))
+       acumulador = acumulador + valor;
+       x = parseInt(prompt("Ingrese -1 para terminar, 0 para seguir"))
+    }
+    console.log(acumulador)
+}
+
+// Do while
+let result = '';
+let i = 0;
+
+do {
+  i = i + 1;
+  result = result + i;
+} while (i > 5);
+
+console.log(result);
 
 // 6) Estructura for
+//for (variable; condición; variación){}
+for(let i = 0; i < 10;i++){
+    console.log(i)
+}
+for(let j = 0; j < apellido.length;j++ ){
+    console.log(apellido[j])
+}
